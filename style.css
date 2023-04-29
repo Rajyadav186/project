@@ -6,9 +6,8 @@
 
 html {
     font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Tahoma, sans-serif;
     font-optical-sizing: calc();
-
 }
 
 a {
@@ -22,7 +21,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow:hidden:
+    overflow: hidden;
 
 }
 
