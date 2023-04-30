@@ -397,3 +397,31 @@ a {
 }
 
 /*end key animation*/
+
+/*Navigation*/
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    position:fixed ;
+    z-index: 99;
+    padding: 0px 20px;
+}
+#nav>h1{
+    font-family: gilroy;
+    font-size:30px;
+    font-weight: 400;
+}
+#nav>a{
+    padding: 10px 20px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#nav>a:hover{
+    background-color: rgb(100, 98, 98);
+}
+/* End Navigation*/
