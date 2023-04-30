@@ -103,18 +103,19 @@ a {
     padding: 6px 17px;
     color: white;
     background-color: transparent;
-    border: 2px solid rgb(229, 15, 15);
+    border: 2px solid rgb(218, 5, 5);
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: .1rem;
     margin-top: 15px;
     transition: .3s ease;
     transition-property: background-color, color;
+    box-shadow: 5px 5px 5px rgba(255, 2, 2, 0.716);
 }
 
 #hero .cta:hover {
     color: rgb(255, 255, 255);
-    background-color: red;
+    background-color: rgb(255, 0, 0);
 }
 
 /*end hero section*/
@@ -405,6 +406,7 @@ a {
     align-items: center;
     height: 7%;
     width: 100%;
+    background-color: rgb(99, 99, 99);
     position:fixed ;
     z-index: 99;
     padding: 0px 20px;
@@ -421,7 +423,7 @@ a {
     color: white;
     border: none;
 }
-#nav a:hover{
+#nava:hover{
     background-color: rgb(100, 98, 98);
 }
 /* End Navigation*/
